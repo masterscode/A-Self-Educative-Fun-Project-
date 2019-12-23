@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <meta name="keyword" content="">
+    <!-- TAKE OUT LOCAL REFERENCE TO CDN WHEN ONLINE :) -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Hans Oil and Gas Industry</title>
+    <style>
+    .container  #about{
+        font-size: 20px;
+    }
+    #contact > .card{
+        border-style:none;
+    }
+   
+    
+    
+    </style>
+</head>
+<body>
+    <div class="container-flex mb-1 mt-1">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top ">
+        <a class="navbar-brand" href=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                      </li>
+               </ul>
+        </div>
+    </nav>
+</div>
+
+    <div class="container">
+    <div class="row"><div class="col-sm-1 "></div>
+            <div class="col-sm-10  text-justify mr-1 mb-1" id="about">
+            <div class = 'card align-middle'>
+            <img class="card-img-top" src="images/hans.png" height="320px" width="100%" alt="Hans copyright image">
+            <div class="card-body ">
+                <h3 class="card-title">Hans Oil and Gas Industry</h3>
+                Hans subsector includes the production of crude petroleum, 
+                the mining and extraction of oil from oil shale and oil sands, 
+                and the production of natural gas, sulfur recovery from natural gas, 
+                and the recovery of hydrocarbon liquids. 
+                The growth of the world economy and population is driving the global demand for Energy. 
+                To meet this demand, Hans delivers ground-breaking projects in a challenging offshore market. 
+                Our offshore oil and gas activities provide integrated solutions with a focus on the installation, 
+                stabilisation, and protection of offshore oil and gas infrastructure. 
+                Hans has led the market in subsea rock installation for than thirty years. 
+                We has managed to maintain that position for continously challenging ourselves and improving our expertise.
+                <span class="blockquote-footer center mt-1">Peter Hans Gregory <br> <i>CEO</i></span>
+                </div>
+            </div>
+            </div>
+         </div> 
+         <div class="row mt-3"><div class="col-sm-1"></div>
+        <div class="col-sm-10" id="contact">
+            <div class="card">
+            <h3 class="card-title mt-1">Contact Us</h3>
+            <form action="contactUs.php" method="POST">
+            <div class="form-group mb-1">
+            <label for="InputEmail1">Your Email Address</label>
+            <input type="email" class="form-control" id="InputEmail1" name="senderEmail" aria-describedby="emailHelp" placeholder="Enter Your email Address" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group mb-1">
+                <label for="senderName">Your Name</label>
+                <input type="text" class="form-control" name="senderName" id="senderName" aria-describedby="senderName" placeholder="Enter Your Name Here" required></div>
+           <div class="form-group mb-1">
+            <label for="subject">Message Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" aria-describedby="subject" placeholder="Enter Message Subject" required></div>
+            <div class="form-group mb-1">
+            <label for="message">Message</label>
+            <textarea name="message" class="form-control" id="message" cols="30" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Send</button>
+        </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+        <footer>
+        <div class="container"> 
+            <p align='center'>&copy; Hans Oil and Gas Industry </p>
+        </div>
+       </footer>
+    
+
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script>
+
+    const form = document.querySelector('form');
+    
+    let brand = innerWidth <= 400 ? 
+        document.querySelector('.navbar-brand').innerHTML += 'Hans Oil and Gas Industry'
+            :'';
+
+
+
+</script>
+</body>
+</html>
