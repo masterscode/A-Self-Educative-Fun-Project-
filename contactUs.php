@@ -54,7 +54,7 @@
     
         <footer>
         <div class="container"> 
-            <p align='center'>&copy; Hans Oil and Gas Industry </p>
+            <p align='center'>&copy; company name here </p>
         </div>
        </footer>
     
