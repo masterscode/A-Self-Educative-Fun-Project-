@@ -32,17 +32,14 @@
     <div class="container">
         
         <?php
-        // include_once 'PHPMailer/PHPMailer.php';
-        // include_once 'PHPMailer/Exception.php';
 
-        // use PHPMailer\PHPMailer\PHPMailer;
 
         $check = empty($_POST) ? header("location:index.html") : true;
         $senderName = addslashes ($_POST['senderName']);
         $senderEmail = addslashes ($_POST['senderEmail']);
         $subject = addslashes ($_POST['subject']);
         $message = addslashes (nl2br($_POST['message']));
-        $receipient = 'petergregory04@gmail.com';
+        $receipient = 'recipientemail@email.com';
         $alertSuccess = "Your Message was Sent Successfully!";
         $alertFailure = "There Was a Problem in Sending Your Message";
 
